@@ -1,0 +1,122 @@
+body
+{
+background-color:#6699FF;
+}
+
+.serif{font-family:"Times New Roman",Times,serif;}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+ 
+/* This is not the only thing you should do for responsive images, but it is a start. Remember that this style will not make your image or video grow any bigger than the original so you have to put in the largest version you will need.
+That can be a performance issue since small screens will download the same image as large ones.
+This article by Luke Wroblewski goes into more detail about that: http://www.lukew.com/ff/entry.asp?1851
+*/
+img,video{
+  width: auto; 
+  max-width: 100%; 
+  height: auto;
+}
+
+body {
+    font: 16px/1.4em 'PT Sans', sans-serif;;
+    color: #1c1c1c;
+}
+ 
+p,
+ul {
+    margin: 0 0 1.5em;
+}
+ 
+ul {
+    list-style: disc;
+    padding: 0 0 0 20px;
+}
+ 
+a {
+    color: #1D745A;
+}
+ 
+
+ 
+h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 32px;
+    line-height: 1.4em;
+    margin: 0 0 .4em;
+    font-weight: bold;
+}
+ 
+/*layout*/
+ 
+ 
+article {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 10px 20px 0 20px;
+    margin: 10px 0;
+}
+ 
+/*header*/
+ 
+header {
+    background: #1c1c1c;
+    padding: 15px 20px;
+}
+ 
+        /*shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/*/
+        header:before,
+        header:after {
+            content:"";
+            display:table;
+        }
+         
+        header:after {
+            clear:both;
+        }
+         
+        /* For IE 6/7 (trigger hasLayout) */
+        header {
+            zoom:1;
+        }
+ 
+.logo a {
+    color: #d8d8d8;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 22px;
+    float: left;
+    letter-spacing: 0.2em;
+}
+ 
+    h1 {
+      font: 300 21px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      width: 500px;
+      margin: 0 auto 15px;
+    }
+
+    
+    .intro{
+       -moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+-moz-box-shadow: 0px 0px 3px #000000;
+-webkit-box-shadow: 0px 0px 3px #000000;
+box-shadow: 0px 0px 3px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+
+    }
+
+	
+
+.about,.date,.location,.feature,.workshop,.fine,.performing,.media,.map,.session,.sessiontwo,.sessionthree,.sessionfour,.billwright,.loiselainegriffith,.sheilasolomonklass,.jodyculkin,.robertzweig,.lisamellinger
+,.alizabethtowery,.malcolmlinton,.sarahhaviland,.susanapowell,.elspethbrown,.dianedowling,.peterpallis,.christopherstein,.sandraposter,.revitalkaisar{
+    border-bottom: 1px solid #000000;
+    padding: 10px 20px 0 20px;
+    margin: 10px 0;
+}
